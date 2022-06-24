@@ -40,8 +40,8 @@ else{
     
     <head>
         <meta charset="UTF-8">
-        <title> Proiect examen 1 | Login</title>
-         <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+        <title> Proiect examen 1 | Login </title>
+         <link rel="stylesheet" type="text/css" href="./assets/css/styles.css"> 
     </head>
     
     <body>
@@ -63,19 +63,8 @@ else{
                <input type="password" placeholder="Enter Password" name="password" required>
                
                <br><br>
-               
-               <input type="text" placeholder="Enter CAPTCHA string" name="recaptcha" required>
-               
-               <br><br>
-               
-               <img src="captcha.php?rand=<?php echo rand(); ?>" id='captcha_image'>
-               
-               <br><br>
-               
-               <a href='javascript: refreshCaptcha();'><p>click here to refresh code</p></a>
-               
-               <br><br>
-               
+                                        
+                             
                <div><label>Remember me:</label> <input type="checkbox" name="rememberme" value="1"></div>
                
                <br>
@@ -101,12 +90,3 @@ else{
 ?>
 
 
-<script>
-//Refresh Captcha
-function refreshCaptcha(){
-    var img = document.images['captcha_image'];
-    img.src = img.src.substring(
-		0,img.src.lastIndexOf("?")
-		)+"?rand="+Math.random()*1000;
-}
-</script>

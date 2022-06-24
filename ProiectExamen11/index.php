@@ -16,6 +16,7 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="About.php">About</a></li>
                     <li><a href="Contact.php">Contact</a></li>
+                    <li><a href="for_visitors.php">Menu</a></li>
                     <li><button class="log-in-button"><a href="log_in_user.php" class="log-in-text">Login</a></button></li>
               
                 </ul>
@@ -35,7 +36,7 @@
                 <h1>Your Platform</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                 
-                <button class="sign-up-button"><a href="#sign-up">Sign Up</a></button>
+                <button class="sign-up-button"><a href="for_visitors.php">See gallery</a></button>
                 
                 </div>
                 
